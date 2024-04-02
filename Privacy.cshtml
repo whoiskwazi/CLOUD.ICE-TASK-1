@@ -1,0 +1,94 @@
+﻿@{
+    ViewData["Title"] = "View Movies";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>You can watch your favourte movies .</p>
+<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+<button class="btn btn-outline-success" type="submit">Search</button>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Title</th>
+            <th scope="col">Genre</th>
+            <th scope="col">Director</th>
+            <th scope="col">Rating(1-5)</th>
+            <th scope="col">Action</th>
+        </tr>
+
+    </thead>
+
+    <tbody>
+        <tr>
+            <th scope="row">Black Panther</th>
+            <td>Action/Sci-fi</td>
+            <td>Ryan Coogler</td>
+            <td>4 </td>
+            <td>
+                <button type="button" class="btn btn-outline-primary">Edit</button>
+                <button type="button" class="btn btn-outline-primary">Details</button>
+                <button type="button" class="btn btn-outline-primary">Delete</button>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">Fast X</th>
+            <td>Action/Crime</td>
+            <td>Louis Leterrier</td>
+            <td>3</td>
+            <td>
+                <a type="button" class="btn btn-outline-primary">Edit</a>
+                <a type="button" class="btn btn-outline-primary">Details</a>
+                <a type="button" class="btn btn-outline-primary">Delete</a>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">Marmalade</th>
+            <td>Romance/Thriller</td>
+            <td>Keir O'Donnell</td>
+            <td>4</td>
+            <td>
+                <a type="button" class="btn btn-outline-primary">Edit</a>
+                <a type="button" class="btn btn-outline-primary">Details</a>
+                <a type="button" class="btn btn-outline-primary">Delete</a>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">Cuckoo</th>
+            <td> Horror/Mystery</td>
+            <td>Tilman Singer</td>
+            <td>4</td>
+            <td>
+                <a type="button" class="btn btn-outline-primary">Edit</a>
+                <a type="button" class="btn btn-outline-primary">Details</a>
+                <a type="button" class="btn btn-outline-primary">Delete</a>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">Kung Fu Panda 4</th>
+            <td> Comedy/Adventure</td>
+            <td> Mike Mitchell</td>
+            <td>5</td>
+            <td>
+                <a type="button" class="btn btn-outline-primary">Edit</a>
+                <a type="button" class="btn btn-outline-primary">Details</a>
+                <a type="button" class="btn btn-outline-primary">Delete</a>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">Knives Out 3</th>
+            <td>
+                Mystery/Comedy
+            </td>
+            <td> Rian Johnson</td>
+            <td>4</td>
+            <td>
+                <a type="button" class="btn btn-outline-primary">Edit</a>
+                <a type="button" class="btn btn-outline-primary">Details</a>
+                <a type="button" class="btn btn-outline-primary">Delete</a>
+            </td>
+        </tr>
+    </tbody>
+
+</table>
+
